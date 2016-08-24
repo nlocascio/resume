@@ -127,7 +127,7 @@
 
                 <div class="col-sm-4">
                     <h4 class="hidden-xs">&nbsp;</h4>
-                    <a class="pull-right btn btn-default btn-xs" href="#">
+                    <a class="pull-right btn btn-default btn-xs" href="https://github.com/nlocascio/resume">
                         <i class="fa fa-github fa-lg" aria-hidden="true"></i>
                         View Source</a>
                 </div>
