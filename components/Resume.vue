@@ -1,6 +1,8 @@
 <template>
     <div id="resume" class="block app-block-resume p-t-lg">
         <div class="container">
+
+            <!-- Header -->
             <div class="row">
                 <div class="col-sm-2 hidden-xs">
                     <img class="img-rounded m-b-md" src="/img/nick.jpg" style="max-width:130px;">
@@ -19,14 +21,17 @@
 
             <div class="row">
                 <div class="col-sm-4">
-                    <h4>Current Employment</h4>
+                    <h4>
+
+                        Current Employment
+                    </h4>
                     <h5>Founder/Owner</h5>
                     <p>FitBody Easthampton, <em>October 2013 to present</em></p>
                     <ul>
                         <li>Developed custom business automation software working heavily in Laravel and Vue.</li>
                         <li>Manages all aspects of a startup business.</li>
                         <li>Leveraged web software to grow business to $250,000 annual revenue in first fiscal year.</li>
-                        <li>Employed 5 employees</li>
+                        <li>Hired and supervised 5 employees</li>
                     </ul>
 
                     <h4>Education</h4>
@@ -35,7 +40,10 @@
                 </div>
 
                 <div class="col-sm-4">
-                    <h4>Previous Employment</h4>
+                    <h4>
+
+                        Previous Employment
+                    </h4>
 
                     <h5>General Manager</h5>
                     <p>Greenfield Fitness Inc., Greenfield, MA, <em>September 2009 to February 2012</em></p>
@@ -56,7 +64,10 @@
                 </div>
 
                 <div class="col-sm-4">
-                    <h4>Proficiencies</h4>
+                    <h4>
+
+                        Proficiencies
+                    </h4>
                     <skill-list category="Programming">
                         <skill name="PHP" rating="4"></skill>
                         <skill name="JavaScript" rating="4"></skill>
@@ -98,7 +109,10 @@
             <div class="row">
 
                 <div class="col-sm-offset-4 col-sm-4">
-                    <h4>Follow Me</h4>
+                    <h4>
+
+                        Follow Me
+                    </h4>
                     <p>
                         <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
                         <a class="pull-right" href="https://twitter.com/LoCascioNick">Twitter</a>
