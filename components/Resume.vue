@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-sm-6">
                     <h1 class="m-t-0">Nick LoCascio</h1>
-                    <h4>Full-Stack Web Developer</h4>
+                    <h3 class="m-t-0">Full-Stack Web Developer</h3>
                     <p>202 South Street, Northampton, MA 01060</p>
                 </div>
                 <div class="col-sm-4">
@@ -114,20 +114,23 @@
                         Follow Me
                     </h4>
                     <p>
-                        <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square fa-lg fa-fw" aria-hidden="true"></i>
                         <a class="pull-right" href="https://twitter.com/LoCascioNick">Twitter</a>
                     <br>
-                        <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square fa-lg fa-fw" aria-hidden="true"></i>
                         <a class="pull-right" href="https://www.linkedin.com/in/nicklocascio">LinkedIn</a>
                     <br>
-                        <i class="fa fa-github-square fa-lg" aria-hidden="true"></i>
+                        <i class="fa fa-github-square fa-lg fa-fw" aria-hidden="true"></i>
                         <a class="pull-right" href="https://github.com/nlocascio">GitHub</a>
+                    <br>
+                        <i class="fa fa-briefcase fa-lg fa-fw" aria-hidden="true"></i>
+                        <a class="pull-right" href="https://nlocascio.myportfolio.com">Portfolio</a>
                     </p>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 text-xs-center text-sm-right">
                     <h4 class="hidden-xs">&nbsp;</h4>
-                    <a class="pull-right btn btn-default btn-xs" href="https://github.com/nlocascio/resume">
+                    <a class="btn btn-default btn-sm m-b" href="https://github.com/nlocascio/resume">
                         <i class="fa fa-github fa-lg" aria-hidden="true"></i>
                         View Source</a>
                 </div>
