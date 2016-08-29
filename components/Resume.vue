@@ -152,10 +152,9 @@
 
             </div>
 
-            <div class="row">
+            <div class="row m-t">
                 <div class="col-sm-4 text-xs-center text-sm-left">
-                    <h4 class="hidden-xs">&nbsp;</h4>
-                    <a class="btn btn-default btn-sm m-b" href="https://github.com/nlocascio/resume">
+                    <a class="btn btn-default btn-sm" href="https://github.com/nlocascio/resume">
                         <i class="fa fa-github fa-lg" aria-hidden="true"></i>
                         View Source</a>
                 </div>
