@@ -3,24 +3,67 @@
         <div class="container">
 
             <!-- Header -->
-            <div class="row">
-                <div class="col-sm-2 hidden-xs">
-                    <img class="img-rounded m-b-md" src="/img/nick.jpg" style="max-width:130px;">
+            <div class="row block-header">
+                <div class="col-sm-8">
+                    <div class="row">
+                        <h1 class="m-t-0">Nick LoCascio</h1>
+                        <h3 class="m-t-0 m-b-md">Full-Stack Web Developer</h3>
+
+                        <div class="col-sm-4">
+                            <ul class="fa-ul">
+                                <li>
+                                    <i class="fa-li fa fa-lg fa-map-marker" aria-hidden="true"></i>
+                                    Northampton, MA
+                                </li>
+                                <li>
+                                    <i class="fa-li fa fa-lg fa-phone"></i>
+                                    <a href="tel:+15084942175">
+                                        (508) 494-2175
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-li fa fa-lg fa-envelope"></i>
+                                    <a href="mailto:nlocascio@gmail.com">
+                                        nlocascio@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <ul class="fa-ul">
+                                <li>
+                                    <i class="fa-li fa fa-lg fa-picture-o" aria-hidden="true"></i>
+                                    <a href="https://nlocascio.myportfolio.com">
+                                        Portfolio
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <i class="fa-li fa fa-lg fa-github" aria-hidden="true"></i>
+                                    <a href="https://github.com/nlocascio">
+                                        GitHub
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-li fa fa-lg fa-linkedin-square" aria-hidden="true"></i>
+                                    <a href="https://www.linkedin.com/in/nicklocascio">
+                                        LinkedIn
+                                    </a>
+                                </li>
+                            </ul>
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <h1 class="m-t-0">Nick LoCascio</h1>
-                    <h3 class="m-t-0">Full-Stack Web Developer</h3>
-                    <p>202 South Street, Northampton, MA 01060</p>
-                </div>
-                <div class="col-sm-4">
-                    <h4 class="m-t-md">Contact Me</h4>
-                    <p><i class="fa fa-phone fa-fw fa-lg"></i> <a href="tel:+15084942175" class="pull-right">(508) 494-2175</a><br>
-                        <i class="fa fa-envelope fa-fw fa-lg"></i> <a href="mailto:nlocascio@gmail.com" class="pull-right">nlocascio@gmail.com</a></p>
+                <div class="col-sm-4 hidden-xs">
+                    <img class="img-circle" src="/img/nick.jpg">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-8 p-r-md">
                     <h4>
 
                         Current Employment
@@ -34,12 +77,6 @@
                         <li>Hired and supervised 5 employees</li>
                     </ul>
 
-                    <h4>Education</h4>
-                    <h5>University of Massachusetts Amherst</h5>
-                    <p>Bachelors of Science in Human Nutrition, <em>December 2012</em></p>
-                </div>
-
-                <div class="col-sm-4">
                     <h4>
 
                         Previous Employment
@@ -61,9 +98,17 @@
                         <li>Produced a direct mail, e-mail, and phone marketing campaign that resulted in 200 new customers.</li>
                         <li>Generated and analyzed detailed business performance data and reports.</li>
                     </ul>
-                </div>
 
+                    <h4>
+
+                        Education
+                    </h4>
+                    <h5>University of Massachusetts Amherst</h5>
+                    <p>Bachelors of Science in Human Nutrition, <em>December 2012</em></p>
+
+                </div>
                 <div class="col-sm-4">
+
                     <h4>
 
                         Proficiencies
@@ -102,33 +147,13 @@
                         <skill name="Apache" rating="3"></skill>
                         <skill name="AWS" rating="2"></skill>
                     </skill-list>
+
                 </div>
 
             </div>
 
             <div class="row">
-
-                <div class="col-sm-offset-4 col-sm-4">
-                    <h4>
-
-                        Follow Me
-                    </h4>
-                    <p>
-                        <i class="fa fa-twitter-square fa-lg fa-fw" aria-hidden="true"></i>
-                        <a class="pull-right" href="https://twitter.com/LoCascioNick">Twitter</a>
-                    <br>
-                        <i class="fa fa-linkedin-square fa-lg fa-fw" aria-hidden="true"></i>
-                        <a class="pull-right" href="https://www.linkedin.com/in/nicklocascio">LinkedIn</a>
-                    <br>
-                        <i class="fa fa-github-square fa-lg fa-fw" aria-hidden="true"></i>
-                        <a class="pull-right" href="https://github.com/nlocascio">GitHub</a>
-                    <br>
-                        <i class="fa fa-briefcase fa-lg fa-fw" aria-hidden="true"></i>
-                        <a class="pull-right" href="https://nlocascio.myportfolio.com">Portfolio</a>
-                    </p>
-                </div>
-
-                <div class="col-sm-4 text-xs-center text-sm-right">
+                <div class="col-sm-4 text-xs-center text-sm-left">
                     <h4 class="hidden-xs">&nbsp;</h4>
                     <a class="btn btn-default btn-sm m-b" href="https://github.com/nlocascio/resume">
                         <i class="fa fa-github fa-lg" aria-hidden="true"></i>
@@ -139,6 +164,12 @@
         </div>
     </div>
 </template>
+
+<style>
+    .block-header li {
+        margin-bottom: 15px;
+    }
+</style>
 
 <script>
     export default {
