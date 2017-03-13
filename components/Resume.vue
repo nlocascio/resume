@@ -51,7 +51,7 @@
                 <div class="col-lg-offset-1 col-sm-3 hidden-xs">
 
                     <!-- Profile Picture -->
-                    <img class="img-circle img-thumbnail img-responsive" src="/img/nick.jpg">
+                    <img class="img-circle img-thumbnail img-responsive" src="/img/nicklocascio.jpg">
 
                 </div>
             </div>
